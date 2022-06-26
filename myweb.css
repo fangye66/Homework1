@@ -1,0 +1,66 @@
+*
+{
+  padding: 2;
+  margin: 2;
+
+}
+
+/*table style*/
+.tableA{
+  width:100%;
+  margin-bottom:1em;
+  border-collapse: collapse;
+}
+th{
+  font-weight:bold;
+  background-color:#ddd;
+}
+th,
+td{
+  padding:0.5em;
+  border:1px solid #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*Input box style*/
+/* Style the search field */
+form.inputbox input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 220px;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.inputbox button {
+  float: left;
+  width: 30px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+/*Dropdown box style*/
+#city *
+{
+  width: 120px;
+  height: 30px;
+  border: 1px solid #999;
+  font-size: 18px;
+  color: hsl(249, 76%, 45%);
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 4px 4px #ccc;
+}
+

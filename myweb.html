@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<table>
+<html>
+<link rel="stylesheet" href="myweb.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<table id="tableA">
   <h3>1. Table</h3>
   
   <tr>
@@ -32,12 +38,16 @@
     <td>321-345-0912</td>
     <td>223 Dr, Sunnyvale, CA, 94016</td>
   </tr>
-
+</table>
 
 <h3>2. Input box</h3>
-<div class="form-group fg--search">
-<input type="search" id="mySearch" placeholder="search">
-</div>
+<form class="inputbox" action="action_page.php"> 
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <input  type="text" placeholder="Search" name="search" >
+</form>
+<br> 
+<br>
+<br>
 
 <h3>3. Ordered and unordered list</h3>
 <ol>
@@ -58,13 +68,18 @@
   <li>Java</li>
 </ul>
 
+
 <h3>4. Drop-down list</h3>
-  <select name="city" id="city">
+
+  <select name="city" id="city" class="select-city">
     <option value="Newark">Newark</option>
     <option value="Santa Clara">Santa Clara</option>
     <option value="Union City">Union City</option>
     <option value="Daly City">Daly City</option>
-    <option value="San Jose">San Jose/option>
+    <option value="San Jose">San Jose</option>
   </select>
 
-</table>
+<br>
+
+</body>
+</html>
