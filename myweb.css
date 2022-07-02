@@ -2,8 +2,9 @@
 {
   padding: 2;
   margin: 2;
-
+  box-sizing: border-box;
 }
+
 
 /*table style*/
 .tableA{
@@ -21,13 +22,9 @@ td{
   border:1px solid #ccc;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 
 /*Input box style*/
-/* Style the search field */
 form.inputbox input[type=text] {
   padding: 10px;
   font-size: 17px;
